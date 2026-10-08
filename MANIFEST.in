@@ -1,0 +1,5 @@
+# Keep machine-readable citation metadata in the Python source distribution.
+include CITATION.cff
+
+# The certified proposals stored as q_final artifacts are Git/source-tree data, not Python sdist data.
+prune reproducibility/q_final

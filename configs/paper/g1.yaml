@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "config_kind": "paper_workflow",
+  "benchmark": "g1_2d_Sigma1",
+  "tier": "analytic_paper",
+  "methods": [
+    "frkl_u",
+    "ffkl_u",
+    "frkl_c",
+    "ffkl_c",
+    "cfi_u",
+    "cfi_c",
+    "cfi_c_frkl_c",
+    "cfi_c_ffkl_c"
+  ],
+  "components": [
+    6,
+    16
+  ],
+  "training_seed": 100,
+  "evaluation_seeds": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000
+  ],
+  "fitting": {
+    "frkl_u": {
+      "initial_samples": 10000,
+      "training_samples": 25000,
+      "epochs": 500,
+      "tau": 0.25,
+      "learning_rate": 0.005,
+      "baseline_rate": 0.5,
+      "smoothing": 0.5
+    },
+    "ffkl_u": {
+      "initial_samples": 25000,
+      "samples_per_level": 25000,
+      "rho": 0.2,
+      "max_levels": 100,
+      "epochs_per_level": 500,
+      "smoothing": 0.75
+    },
+    "frkl_c": {
+      "initial_samples": 10000,
+      "training_samples": 25000,
+      "epochs": 500,
+      "tau": 0.25,
+      "learning_rate": 0.005,
+      "baseline_rate": 0.5,
+      "smoothing": 0.5,
+      "beta": 0.5
+    },
+    "ffkl_c": {
+      "initial_samples": 25000,
+      "samples_per_level": 25000,
+      "rho": 0.2,
+      "max_levels": 100,
+      "epochs_per_level": 500,
+      "smoothing": 0.75,
+      "beta": 0.5
+    },
+    "cfi_u": {
+      "initial_samples": 25000,
+      "samples_per_level": 2500,
+      "rho": 0.2,
+      "max_levels": 100,
+      "smoothing": 0.75
+    },
+    "cfi_c": {
+      "initial_samples": 25000,
+      "samples_per_level": 25000,
+      "rho": 0.2,
+      "max_levels": 100,
+      "smoothing": 0.75,
+      "beta": 0.5
+    },
+    "cfi_c_frkl_c": {
+      "cfi_initializer": "cfi_c",
+      "refinement_initial_samples": 10000,
+      "refinement_samples": 25000,
+      "refinement_epochs": 500,
+      "tau": 0.25,
+      "learning_rate": 0.005,
+      "baseline_rate": 0.5,
+      "smoothing": 0.5
+    },
+    "cfi_c_ffkl_c": {
+      "cfi_initializer": "cfi_c",
+      "refinement_initial_samples": 10000,
+      "refinement_samples": 25000,
+      "refinement_epochs": 500
+    }
+  },
+  "final_proposal": {
+    "constrained_methods": "certified_q_final_required",
+    "unconstrained_methods": "direct_learned_proposal",
+    "artifact_manifest": "reproducibility/artifacts.json"
+  },
+  "evaluation": {
+    "estimator": "ordinary_unnormalized_importance_sampling",
+    "sample_size": 100000
+  },
+  "aggregation": {
+    "non_cmc_runs": "all_20",
+    "cmc_positive_count": "reported_as_x_of_20",
+    "variance_reduction": "positive_cmc_subset_only"
+  },
+  "execution": {
+    "device": "cpu",
+    "network": false,
+    "tracking": false,
+    "output_root": "runs/paper/g1"
+  }
+}

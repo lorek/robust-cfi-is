@@ -1,0 +1,16 @@
+schema_version: 1
+benchmark: g1_2d_Sigma1
+method: cfi_c
+components: 6
+training_seed: 100
+evaluation_seed: 100
+initial_samples: 5000
+samples_per_level: 5000
+rho: 0.2
+max_levels: 30
+smoothing: 0.75
+is_samples: 20000
+device: cpu
+tracking: false
+network: false
+output: runs/quickstart_g1.json

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "config_kind": "paper_workflow",
+  "benchmark": "g1_2d_Sigma1",
+  "tier": "analytic_paper",
+  "methods": [
+    "frkl_d"
+  ],
+  "components": [
+    16
+  ],
+  "training_seed": 100,
+  "evaluation_seeds": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000
+  ],
+  "fitting": {
+    "frkl_d": {
+      "defensive_weights": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "exact_count_stratification": true,
+      "initial_samples": 10000,
+      "training_samples": 25000,
+      "epochs": 500,
+      "tau": 0.25,
+      "learning_rate": 0.005,
+      "baseline_rate": 0.5,
+      "smoothing": 0.5
+    }
+  },
+  "final_proposal": {
+    "kind": "full_defensive_mixture",
+    "certification": "not_applicable"
+  },
+  "evaluation": {
+    "estimator": "ordinary_unnormalized_exact_count_defensive_stratified",
+    "sample_size": 100000
+  },
+  "aggregation": {
+    "non_cmc_runs": "all_20",
+    "cmc_positive_count": "reported_as_x_of_20",
+    "variance_reduction": "positive_cmc_subset_only"
+  },
+  "execution": {
+    "device": "cpu",
+    "network": false,
+    "tracking": false,
+    "output_root": "runs/paper/defensive-g1"
+  }
+}

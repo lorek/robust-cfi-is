@@ -1,0 +1,89 @@
+{
+  "artifact_content_sha256": "36e9270d99d87fc281646330ac8e6e34481f8465b7ec015246d0138c0e5a6526",
+  "content": {
+    "artifact_kind": "certified_final_gmm",
+    "certification": {
+      "components": [
+        {
+          "component_index": 0,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "policy": "production_operational_certification_v1"
+    },
+    "proposal": {
+      "component_count": 1,
+      "dimension": 2,
+      "role": "q_final",
+      "source_of_truth": "serialized_float32_scale_tril"
+    },
+    "provenance": {
+      "beta": 0.5,
+      "covariance_scale_final": 1.0,
+      "final_logical_id": "q_final::test_problem::k1::cfi_c::seed100",
+      "learned_factor_semantic_sha256": "bd24296c83fd5b5737bd67cad930963dd397eac6ec548bfee9219d669fae02f4",
+      "nominal_covariance_semantic_sha256": "ee1c3456407bb8840d40acae17c8e990f754c9d00bb153dcd8b2a62211931007",
+      "problem_id": "test_problem",
+      "reference_materialization": "test_fixture_v1"
+    },
+    "tensor_semantic_sha256": {
+      "component_logits": "31bf226eba95c5bc638d3eba7ac5df78cece78efb5091e9b235a84b5b59f2e0b",
+      "means": "e5504b26dd2e9798b7e13f4164f23daa7b9a4f7ddaa7f5a6db132c7a08e25841",
+      "nominal_covariance": "ee1c3456407bb8840d40acae17c8e990f754c9d00bb153dcd8b2a62211931007",
+      "scale_tril": "bd24296c83fd5b5737bd67cad930963dd397eac6ec548bfee9219d669fae02f4"
+    },
+    "tensors": {
+      "component_logits": {
+        "byte_order": "little",
+        "data_base64": "AAAAAA==",
+        "dtype": "float32",
+        "semantic_sha256": "31bf226eba95c5bc638d3eba7ac5df78cece78efb5091e9b235a84b5b59f2e0b",
+        "shape": [
+          1
+        ]
+      },
+      "means": {
+        "byte_order": "little",
+        "data_base64": "AAAAAAAAAAA=",
+        "dtype": "float32",
+        "semantic_sha256": "e5504b26dd2e9798b7e13f4164f23daa7b9a4f7ddaa7f5a6db132c7a08e25841",
+        "shape": [
+          1,
+          2
+        ]
+      },
+      "nominal_covariance": {
+        "byte_order": "little",
+        "data_base64": "AACAPwAAAAAAAAAAAACAPw==",
+        "dtype": "float32",
+        "semantic_sha256": "ee1c3456407bb8840d40acae17c8e990f754c9d00bb153dcd8b2a62211931007",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "scale_tril": {
+        "byte_order": "little",
+        "data_base64": "AACAPwAAAAAAAAAAAACAPw==",
+        "dtype": "float32",
+        "semantic_sha256": "bd24296c83fd5b5737bd67cad930963dd397eac6ec548bfee9219d669fae02f4",
+        "shape": [
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    "transform": {
+      "construction_dtype": "float64",
+      "eta": 0.00034526698300124393,
+      "float32_machine_epsilon": 1.1920928955078125e-07,
+      "proposal_dtype": "float32",
+      "tau_accept": 0.5003452669830012,
+      "tau_build": 0.5006905339660025,
+      "version": "generalized_nominal_shift_v1"
+    }
+  },
+  "schema_version": 1
+}

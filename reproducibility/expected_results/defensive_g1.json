@@ -1,0 +1,80 @@
+{
+  "aggregation": "all_20_non_cmc_runs",
+  "benchmark": "g1_2d_Sigma1",
+  "components": 16,
+  "display_name": "fRKL-d",
+  "estimator": "ordinary_unnormalized_exact_count_defensive_stratified",
+  "evaluation_sample_size": 100000,
+  "evaluation_seeds": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000
+  ],
+  "method": "frkl_d",
+  "provenance": {
+    "lambda_0_1_freeze_manifest_sha256": "76e40cc781a05ee50eadeeba65eda72c8d9f5ceaa2c1d8fd36619157d0218940",
+    "lambda_0_2_to_0_5_freeze_manifest_sha256": "4e834ed2a158fab6be746a26e308f57993e4bc80128bbf109df91c5c0c753765"
+  },
+  "record_type": "expected_aggregate",
+  "rows": [
+    {
+      "accepted_summary_sha256": "b5cb97c18a82604c695d04f8f017382bac79b1941ee9e2e8eab5f4d1e34651c1",
+      "defensive_weight": 0.1,
+      "estimate": 4.772826927116101e-06,
+      "mean_cov": 0.07529672107987265,
+      "mean_log_error": 0.050620389221085735,
+      "mean_variance_reduction": 1734.5754719862048
+    },
+    {
+      "accepted_summary_sha256": "7c7a5652b69770c715db6307426e3345843fa69990b32c83aed8aee2b596ab7f",
+      "defensive_weight": 0.2,
+      "estimate": 4.809862750802787e-06,
+      "mean_cov": 0.0754495826565223,
+      "mean_log_error": 0.06519359015970796,
+      "mean_variance_reduction": 1713.252507796859
+    },
+    {
+      "accepted_summary_sha256": "f34cb30b8fbdfcc79e73a23e8c840706f6a14c2da14a1f0a81d63d9759d9737d",
+      "defensive_weight": 0.3,
+      "estimate": 4.8659514281638976e-06,
+      "mean_cov": 0.09328632787388993,
+      "mean_log_error": 0.08539974761271125,
+      "mean_variance_reduction": 1073.7564301817583
+    },
+    {
+      "accepted_summary_sha256": "4e4ae783025bf1c4c9b2a39cdaf32689e99723da13aed1afc64f92d84310316b",
+      "defensive_weight": 0.4,
+      "estimate": 4.827783304929682e-06,
+      "mean_cov": 0.09491041534835104,
+      "mean_log_error": 0.06237124008535817,
+      "mean_variance_reduction": 1027.2686414039276
+    },
+    {
+      "accepted_summary_sha256": "ceaee6d2f0430871fe0fa7cd3840994fcd5c8be10a820db7521d67dc26b21271",
+      "defensive_weight": 0.5,
+      "estimate": 4.954505837771587e-06,
+      "mean_cov": 0.0976271427246774,
+      "mean_log_error": 0.08655252767965474,
+      "mean_variance_reduction": 829.3861300313056
+    }
+  ],
+  "schema_version": 1,
+  "training_seed": 100
+}

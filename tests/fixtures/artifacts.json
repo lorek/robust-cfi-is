@@ -1,0 +1,32 @@
+{
+  "artifacts": [
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "test_problem",
+      "certification": {
+        "artifact_content_sha256": "36e9270d99d87fc281646330ac8e6e34481f8465b7ec015246d0138c0e5a6526",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 1,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "test-problem-k1-cfi-c-seed100-q-final",
+      "sha256": "4aa55dbe0913c5a81cf2abb655d8006dc38fc93acbfd1a9f61a9c83fcd9a29e5",
+      "size_bytes": 2912,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    }
+  ],
+  "cohort": {
+    "artifact_count": 1,
+    "availability": "repository_embedded",
+    "certification_passed_count": 1,
+    "generation": "certified_final",
+    "name": "certified-q-final"
+  },
+  "schema_version": 1
+}

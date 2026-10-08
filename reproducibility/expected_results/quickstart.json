@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "record_type": "expected_reference",
+  "benchmark": "g1_2d_Sigma1",
+  "method": "cfi_c",
+  "structural_expectations": {
+    "certification_passed": true,
+    "components": 6,
+    "covariance_strictly_above_half_nominal": true,
+    "estimator": "ordinary_unnormalized_importance_sampling",
+    "finite_metrics": true,
+    "sample_size": 20000
+  },
+  "reference_result": {
+    "environment": {
+      "numpy": "2.5.3",
+      "python": "3.12.12",
+      "scikit_learn": "1.9.1",
+      "torch": "2.14.0"
+    },
+    "cfi_beta_sequence": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.425,
+      0.435,
+      0.445,
+      0.5
+    ],
+    "cfi_elite_count_sequence": [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1361
+    ],
+    "cfi_gamma_sequence": [
+      -15.539750099182129,
+      -10.27922248840332,
+      -5.721518039703369,
+      -4.99334716796875,
+      -5.2202301025390625,
+      -2.8988583087921143,
+      -0.940223217010498,
+      0.0
+    ],
+    "cfi_levels_completed": 8,
+    "cov": 0.031199693419798273,
+    "estimate": 5.12163614723628e-06,
+    "event_count": 10887,
+    "final_fit_elite_count": 2096,
+    "minimum_theorem_margin": 0.0006905022028147467,
+    "standard_error": 1.5979347760152875e-07
+  },
+  "validation_envelope": {
+    "estimate_relative_tolerance": 0.05,
+    "event_count_absolute_tolerance": 100,
+    "minimum_theorem_margin_lower_bound": 0.00034526698300119
+  }
+}

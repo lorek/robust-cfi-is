@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robust-cfi-is"
+version = "0.1.0"
+description = "Coverage-first importance sampling with constrained Gaussian mixtures"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Paweł Lorek" },
+    { name = "Rafał Nowak" },
+    { name = "Rafał Topolnicki" },
+    { name = "Tomasz Trzciński" },
+    { name = "Maciej Zięba" },
+]
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "numpy>=2.0,<3",
+    "pyyaml>=6,<7",
+    "scikit-learn>=1.5,<2",
+    "torch>=2.4,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+g7 = ["torchvision>=0.19,<1"]
+
+[project.scripts]
+robust-cfi-is = "robust_cfi_is.cli:main"
+
+[project.urls]
+Repository = "https://github.com/lorek/robust-cfi-is"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

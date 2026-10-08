@@ -1,0 +1,1812 @@
+{
+  "artifacts": [
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ee28c874b832816a981c6185df40a6063a40b1a324cd1955bfef53c1fd580ddb",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g1-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "22d88ce5ea05baf673c53daee409cd77dd02da55ebb64c3b86b2002fb8527d80",
+      "size_bytes": 30545,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ff65d3f713fc8d1df696773f746f88dad76c3c3dd20c6c61f658bebc74d2efbf",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g1-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "2476f2f1daf41ef3a4d95dd55d9a1ddbb9837a52a9eec67fcd6ac27d45116c91",
+      "size_bytes": 31144,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "a71959fdd215c37394718759f245b8668db1b56818ca7e521a62a9d4156543e1",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g1-k16-cfi-c-seed100-q-final",
+      "sha256": "8e1cbe0149eb4952c5da67cc890e753c58efa517838f8e7ea08ba1466b37e2d9",
+      "size_bytes": 28718,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "cbd1c50f7dc0ecd331910bd756015907fe77121fc7459ec70c7417c58017f07c",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g1-k16-ffkl-c-seed100-q-final",
+      "sha256": "5256d251a90fb2e343af94184660d9358c7a96ae79147875dcef50086a6c272c",
+      "size_bytes": 30999,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "3866005492a68f79699a640d0abd3295efa703019bdb4cc985db475e056353c7",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g1-k16-frkl-c-seed100-q-final",
+      "sha256": "e0263fd057d265beaad70df906c0fba1881ab819b629d770a56245e216448077",
+      "size_bytes": 30384,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "fb87af9669a869a700f748c0c9e0c8a23643bdcba60aaae4a1650c13817b7183",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g1-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "899603986fb345b1a20ab925abed8b2e9d18728da8c3f82f06633a826cf12205",
+      "size_bytes": 13089,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ff811a7e03db98df427c00fc1a12f339c84d703adf5b01c5dfab80b043cb0434",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g1-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "58ee1eb3549e578b7595b45b86b2f89071d85962fe037c53cfddeda213c92406",
+      "size_bytes": 13319,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "7703a475e15b6b2a3390c377f97e1469301ba41ba9a6cb8009d93ccf070f752f",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g1-k6-cfi-c-seed100-q-final",
+      "sha256": "c7d53da04f4e6cc46b7b0d97fbc01f96681020f75549aaa3f007571069ae3610",
+      "size_bytes": 12395,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "bc2fce70b328113d3cbb33b813ead0d044bb907ab81afb24b33e6374d978ac33",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g1-k6-ffkl-c-seed100-q-final",
+      "sha256": "f3903e62e408b33f524532fc1a4b05a6c61f40fa4f9ad81fc0a1f906ee6e4239",
+      "size_bytes": 13014,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g1_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "2225dc3c1fa0c775b26cc1ba1898a442e43bcb57f4f1e210f08f91510645f308",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g1-k6-frkl-c-seed100-q-final",
+      "sha256": "c9ca292c5c4fb2ad66bf040a99fd643c2ff8e6bdb08132bb175b0912a13660d6",
+      "size_bytes": 13217,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "ad140e03a60c434ef048da83372f0758a5d365d5fb8b258efb6ee99625f78713",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "e83c01f3dda5bdf09384630992c8f9382bcddfecd7f8ea82f801ae38bae80f15",
+      "size_bytes": 41080,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "bccf5750a8a93b43557464784abd547985ab5ee819dc0d11ac1639b3e28535f8",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "7acf5a74409d2ca778fbbe1c81d91f54cc2038abb4dea631680df3f77946d46a",
+      "size_bytes": 41094,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "eb7817af4626f7202611a509b7a154c551cd44848294eab0c0a207b7c3422b15",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-20k-k16-cfi-c-seed100-q-final",
+      "sha256": "b9faef21b7257a2ad551f74acffa1cd6f7693969ec5650b0e69c55f2ccbe9f5c",
+      "size_bytes": 41118,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "4f9732e114bfe505c01d1ca59fefc1478ac42cafbcafd527d0762623ca03cbf2",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k16-ffkl-c-seed100-q-final",
+      "sha256": "ce4c5dc2435041565b3603173b6847b03897c226dbe9c51dcb462247d837b712",
+      "size_bytes": 41012,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "869d81aa0af45a5e5d6705f8a96b7e4fa8efc0275520180b02af7143af730da9",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k16-frkl-c-seed100-q-final",
+      "sha256": "0b602f547829fe97a3fdbe5a71da5f89cff1f57a6e4b3b9ff8abe8af1f967123",
+      "size_bytes": 40447,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "c7cf572c6c47d443e980924ffa79dc4dbef1a1ab790c6e6dbc49e603aa85797c",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "a20e8b4753eafeb87510141678aec5670bbb40e3b84c839ff066c7fd63155084",
+      "size_bytes": 17395,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "38ccd1556433d918363644d90adc41c028edbd4a7ec8ac44fd3410362302c9f0",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "0fcaaf50c6a4b578816c618a8d7197bbb4de438d2b3e9ee0b68f945f028d8dd0",
+      "size_bytes": 17351,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "0f0b6f930e57a4e440242d2260bcbc8827167bbcbeaa20be7624731357a30f50",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-20k-k6-cfi-c-seed100-q-final",
+      "sha256": "5f6e337c32f2c40b735cd27d2af300389171f9ac4bca1920acef1946593fa694",
+      "size_bytes": 17335,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "aa76a99a2fd29eccc220d5a1823a0a25976a25de5c13fab67d296c57938c1055",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k6-ffkl-c-seed100-q-final",
+      "sha256": "499515b202f0a04c648d72f8869088646141503cd5670457e2ee7fa7b10c871e",
+      "size_bytes": 17294,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_20k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "668cc78d7472208895ef09290f2aa5a71538b0b282a1ad38c0ccc04f03edf647",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-20k-k6-frkl-c-seed100-q-final",
+      "sha256": "23cd088e97db862de3abcca2e02450dd9e6f4f84094df2c7ead0e50f30301052",
+      "size_bytes": 17133,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "6dc811f84935a4e786ea29bd3f148271bf81d6057a719b5b6ca6f4bb3de557ba",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "fa6e6555521848d96410dfa9af06a9adfa892c88b9b5b8f5dc3ce831be00f0b3",
+      "size_bytes": 41089,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "89d3c7b692a7389b0acb60073af4804472518190767343dbed3e64727be0494f",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "16833f4928bd8e590bfa37d6d632ac75366b5a6708440023612335f3e8f31566",
+      "size_bytes": 41087,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "b866ab5df2f405be42b31ffa49996f66ab127a805df343b8ee630f0f80dea352",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-40k-k16-cfi-c-seed100-q-final",
+      "sha256": "8c3e049cdc3c7ca808ad47e5956e9e90ca23e73df9fcb15b8b9c3c4271f1f0ec",
+      "size_bytes": 41091,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "7da40c46175cc642a61a19b0aece9ec7dac67cafba4d15917f155968f2b4b801",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k16-ffkl-c-seed100-q-final",
+      "sha256": "80bd5dfdc8d720614e8964a082f0d47bcedabe0ed1de82d038117c43b233d50f",
+      "size_bytes": 41003,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "3c582456850561142cfc6b0c6175afa01b5d4df579c574eb8dcd1efa95baa15e",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k16-frkl-c-seed100-q-final",
+      "sha256": "d932776a5794e4693937024a063287562fee8ce519ce101c00520673dcac1c25",
+      "size_bytes": 40434,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "d8932eb31feb9c564486036343cd718ee5782f55d289b976823d99bb7edeeee4",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "eab961c97df58c6af9dac9e0697aad2ff2251269532ff651e3d89e6a42a8b0a6",
+      "size_bytes": 17393,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "f378404ae80d215f73d25a35a76ccb735d38e0fde9852dbad135975ceb6058cc",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "c9dcc559ec7554ca0b46ab2993d5c7101f359b7b16290aa32624c2157fe877c6",
+      "size_bytes": 17381,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "4a33897d5f69010beefbe34d1932ac45a8df555ffd1e473456898609a380daa7",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-40k-k6-cfi-c-seed100-q-final",
+      "sha256": "fb7b7dd5266943febf60d64372d0f40960093c86ee8d47125456655db49bb9b1",
+      "size_bytes": 17371,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "b0cc534a183a898f6b487fb1a496b11050c70d9847e27a9170b25fa8970228cd",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k6-ffkl-c-seed100-q-final",
+      "sha256": "49028b9d04c220f3505869a7421bad532cf7d5e33b4d7475d62d254710c29338",
+      "size_bytes": 17281,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_40k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "c6241efe21c844b93fbd532c8acd075d5144ed47328a8605f5d25680e5a2499f",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-40k-k6-frkl-c-seed100-q-final",
+      "sha256": "b8093902a17b61506296509a378ae3bc0d925f3bc5e67226aeb297abd802dd4f",
+      "size_bytes": 17127,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "7e6a6a0579ae3ffe1e1bcb59f37135b39241f9285e859899f5584a53e2958718",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "0ee6f0f4681191160ccde8008d930b65165e509e5ad503595406eeb0f4303a64",
+      "size_bytes": 41093,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "292d1bd62c8a4c9902b350f81825bb74762ad373f733fc33316f3fbecc070c01",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "07cf2a7d9346b0cd674cd3a1b25e9ea4e2db3e60e17d261f60b797a2590276db",
+      "size_bytes": 41100,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "72f4f58945fec638e765742e824ce0f1f5eda10b42f3262de0c14459062d96f6",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-500k-k16-cfi-c-seed100-q-final",
+      "sha256": "dbb8c688ae671ba6aa3a9b8ade30987f7dfbc6a319a186d7e8b809c4944b90c6",
+      "size_bytes": 41101,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "bd3ca20861fd58992642350bb6ebd7b130fb9c8386f1774ff6ab1bb950a13baa",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k16-ffkl-c-seed100-q-final",
+      "sha256": "078effea87e6ddfa509e769da81c299d1758e1cf692a310c275ffbf46772f8c4",
+      "size_bytes": 40993,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "696f01e244f0bb5767a9dfaf575b54cb91bf1faab2e8a9368b7cc2a18fc83713",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k16-frkl-c-seed100-q-final",
+      "sha256": "8f0f7f177beed76e3f3438592f9cd3567cb33ed5ee43720e9c04b2dcfb672bf3",
+      "size_bytes": 40439,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "a0e54b26f52b73117217fe0a0f12f2d61102fdb5ec7249e4be7462094836265e",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "e6d360115935b9df95ae803005a4a521079532e13cb59087f54550ead95428f2",
+      "size_bytes": 17386,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "ab0cf08c6768b9d34ecc4d6a4bbcd4cdcf89de635db4a68f0f9ffc321b5080d9",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "2f0fb7bb6a154a98a362ab40500dfc22cd3de531d13d0fa276fbd97895887d00",
+      "size_bytes": 17381,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "89af254162ec97b7fe63064d8b9c2eecc8d64c83606febb78bbddc9d5bd53b98",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g10-500k-k6-cfi-c-seed100-q-final",
+      "sha256": "8f7fa375a3de509814428ac5233df9fe3b4f39d03e98f027bb11a551a1849a15",
+      "size_bytes": 17362,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "b6dd3abc838a7337b52edfdf11f1f371af6e1291c10cf37f8e1aa5ee7b797174",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k6-ffkl-c-seed100-q-final",
+      "sha256": "a5d472806112e79bc932a8b9c38146f4b75ccd147c4f276ccd7224e8cf9466a8",
+      "size_bytes": 17262,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "s10_sum_exp_gamma_500k_Sigma2",
+      "certification": {
+        "artifact_content_sha256": "902cb7f4cddf62c4e285084c590e5352f25d6a0c9de4b31a8e47f5a2c0d59585",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g10-500k-k6-frkl-c-seed100-q-final",
+      "sha256": "40e7c708b9b2c6a248796428e5df1b831e257ddf9e19eb45715fade176e0a89b",
+      "size_bytes": 17135,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "e1aab1a7f5d55755d03150bdd7636e8b86e3d0c8db0e3b5ba883456baf4f03ac",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g2-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "126c645c872f5a38a2741bc7417436d8f02ea8a2d4c0989a414a7884db1ee50a",
+      "size_bytes": 30714,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "4975dcebc1c79d49e56356a70f11b3cff4db79621580f16c41407b1a4277419d",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g2-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "a7167ef76b81b6d4d3a6dcb863c3781b88b0feb67ce244315049a3f2298ca8a7",
+      "size_bytes": 31334,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "fb0b6ad3133a499371b4618061d8a292571cce0cad64fd79fc7a670a9ad687b4",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g2-k16-cfi-c-seed100-q-final",
+      "sha256": "393978b38ee4695fb5cf69c1d4eaa04ced7bee72b277e55ad2b86960a8497379",
+      "size_bytes": 30087,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "8f13673a26785f17cbfca9886f03f4e9433d17932f92b8291bd88441190af6a7",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g2-k16-ffkl-c-seed100-q-final",
+      "sha256": "a7c14aa4193eb426f6b830bcdac9cd7e0d3db838736b0a3033af2e442a2bde22",
+      "size_bytes": 30816,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ff160162ab1855d8fcaf4129b349c803cfb52b9102f4350fe89609c206574e98",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g2-k16-frkl-c-seed100-q-final",
+      "sha256": "c5e46fd5f54bca80c53e34a59f2ef7bde0ad88a59eb94f89ac1c5f6c685f2794",
+      "size_bytes": 30500,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ad5847de2c92654c9dbf7b3f95a7fbe12cbfceaf5fd56bdb73a7d7b50b79c3b2",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g2-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "392029eae5587117cafb7d6c0db1e13f4780376b34985361bf8bc4175baa6f3f",
+      "size_bytes": 13272,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "50813c72c3825f8cb125e8a8034af1d7f112c0ae5f57d56de98b09cdb9ea7cac",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g2-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "8666950a4c320104a998f61c42fd3e70ae5f526cffb7879ca032d9162681d0fb",
+      "size_bytes": 13240,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "6d32ffb268af68e27cffb1ba58084e45f5fce75bec30ff2eb65e2524d02020ea",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g2-k6-cfi-c-seed100-q-final",
+      "sha256": "cff56bcf373d2354e33948133cba3970a1f03f221b6865b79e5b7f9e73ca7c3b",
+      "size_bytes": 12750,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "ea6fc2a09e4805fc15c1a2639326aa0a8d0e8dc0bcf17909f018f737a859a407",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g2-k6-ffkl-c-seed100-q-final",
+      "sha256": "ba1fa852dd494eddf1447242543a0debb5deaf9cc817735a78152e08d5b3f2af",
+      "size_bytes": 13244,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g2b_papaioannou_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "e7902c95dfeaf83763bdcbfa2f2ac68ae96b10faee315895b72bc1cedc1d453f",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g2-k6-frkl-c-seed100-q-final",
+      "sha256": "21e935716d130d96ee7522614e6568e76f0baf3b436f33dff26a97da51aa8632",
+      "size_bytes": 13274,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "f5f79bf80d5f75b195038aadabbb3fa37b42a44fde0f25ae894ab1fd0a7ef898",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g3-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "eaf464d4d3f00cc9b282df52d1bd923f89bcc043d02f7898758fa4ad696585cc",
+      "size_bytes": 30395,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "b1e2137ae0e9139655ae9811a011d2b5b36d58782a97156a5408a243c5810fd1",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g3-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "24c67b232da5eff8ebb2e28c11fecf33452d29c9d11da7b5601e86a336f3915e",
+      "size_bytes": 30916,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "d0fc417fef47f8275884499cd3edf2151125b8af76837c341fbd6df9fe599f80",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g3-k16-cfi-c-seed100-q-final",
+      "sha256": "452844278eb7d0d70dd11cd280ef3e6df2e7295dd0fde0c5dbae73093a0f8305",
+      "size_bytes": 28716,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "58399d475386b240b2ed9fd9bdc765f69df0fab344f22032b05b7f8b81702018",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g3-k16-ffkl-c-seed100-q-final",
+      "sha256": "fa0e998fc1512d8d958819df35ff9a049dc6d7927e90d23ef828cbd742d03abc",
+      "size_bytes": 30859,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "0732bd09eceed606dca7de813bab52a5d279c3e549994dfb840d6d3aada2158b",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g3-k16-frkl-c-seed100-q-final",
+      "sha256": "4574f6d032a2fcc8f0677dce7775d212733ae4f12ca26b5d31dd94e05186f925",
+      "size_bytes": 30120,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "5c6fe0759cce1b0ce035cf8423815fcb7fe4ad6e551d861fb4e0e0a571a8ca52",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g3-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "ceb1eda3d19a9c5b6ce4574cd148976a4206b6cc75eea406684362b3296867f7",
+      "size_bytes": 13173,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "e35661cf5eb148ca550d8f1224a14768392ccc20ae1bd84326deeb273d28aa08",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g3-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "a626d429e819f443bcc2228b866814f397044913430fb58c86a4a1a9857cae17",
+      "size_bytes": 13214,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "1450bbaadbe7eca06098766b598683a22b29f777a486ca0467800ae38eaa8212",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g3-k6-cfi-c-seed100-q-final",
+      "sha256": "0e316df949b77ab5604dccc0176706a09dd76ee98570da1363b1528ef5279526",
+      "size_bytes": 12396,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "9abb71ce7a7d013dbda8b7ab846e044df13c1790beb50d9fdba5869aedf9e71d",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g3-k6-ffkl-c-seed100-q-final",
+      "sha256": "d3600092ff30353c5733c8f85db05c6f352032642d1bd5b73ee80c575431a9b9",
+      "size_bytes": 12949,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g3_2d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "c71200d50c28c9db18facf7f0c63739ac614b56cb9fcce9b36a0da1f96f807ad",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g3-k6-frkl-c-seed100-q-final",
+      "sha256": "8d7675797bcb86e6aa50415728f7cd4ba817aed06d9d60ada8ed96e6d37fe881",
+      "size_bytes": 13041,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "55ff4e5f96e807f881a0d80e83370836d440ab4def091a6db4c53797d9659d4a",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g5-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "85fe68de759e41c817ce05d512d86ec0f8078674f1bdefaeaf7faab0d399ec9d",
+      "size_bytes": 179675,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "f9d06016a5afef072f73e5d81ce5e1ae2f8b62ed6710043c92ff92310ab3a7df",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g5-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "9a194502dd33ef8ddc98ee06a228cb0dae5b3b9fbf8a97a2f32d97cc30414bcb",
+      "size_bytes": 179703,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "62e9693d3f089f7e4b79886b1c0a6e930bb5bee79818add4d63a97a556ee3bbf",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g5-k16-cfi-c-seed100-q-final",
+      "sha256": "ab857b9b9616fb5d2ab9ad5d2f05ea1b5e79d952d7533facd8ef30353c212e26",
+      "size_bytes": 179689,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "47f7db9533642e76cf164dba79e356faf79e6c9e3b36a2dabc24c8e27dc299fa",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g5-k16-ffkl-c-seed100-q-final",
+      "sha256": "7eea1cd73393e039b253786687f46d3db3d1de28e1d65bbbcabc433234cc4848",
+      "size_bytes": 179662,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "aa5649676dc550b2b9b962eca90586968bf82ec685b86247c83e83298281b201",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g5-k16-frkl-c-seed100-q-final",
+      "sha256": "f4e04de4a722d4b2cb232519727be82480b5a3204661289f1495bd6bbee43062",
+      "size_bytes": 179676,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "86340e47ac73fea269b7cf4432bf9c0dc86f23c8ac36eec5b7869567561c4eb1",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g5-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "f8c870951c10d67f35f2e5b471a7f30eabf5c8f48c03ac8674799d84d2f5b898",
+      "size_bytes": 74353,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "86854f4cdec81d679310c54ef39b3629323e3f728761aaa7672b07dc12988e14",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g5-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "63d1c2460fbda85b6f57dd09b9a67dd5435ebc003a38442c39b825506de271a3",
+      "size_bytes": 74349,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "17df74b51333e26a8558f4f396f263a5a3d8d3ebcf190a7203e1cc32afd0841f",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g5-k6-cfi-c-seed100-q-final",
+      "sha256": "df2cf0f43a42ad8dbac7f34c479bcc3129a216d8a8c11b3de9f203edd3114380",
+      "size_bytes": 74343,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "a831d83e212e71117696c50dc693799799d17d3e172d59104dd8c7a6a909d95d",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g5-k6-ffkl-c-seed100-q-final",
+      "sha256": "723b79fd814be7732b3214e49f94710b0ea3b53d538eceaebed4f086a51394a8",
+      "size_bytes": 74345,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g5_powell_40d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "b363549786ecd88dcf59f9a7cbafca4b3939505258f0aa09819ffc1f575dea79",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g5-k6-frkl-c-seed100-q-final",
+      "sha256": "48feb04a9c0394154d64b7d4d010ee94a80b9bd59aa7f225075a44dd941ab538",
+      "size_bytes": 74337,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "92560067c73e8046b08497f0071cb30cd0c1124628bd7e10efb5c0f0ff3d304a",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g6-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "37e29957a311dbbe27cb6d5fc14de8991256958cf713d98f9c541ba4bfe7368b",
+      "size_bytes": 946428,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "e2dce0c9fce0f84e1c08c3c1f45f5b240549095c4562ca0e579073e8b2b8da9e",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g6-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "4ba364a93770e3698c4697d4ae59cd12dcbf8f9432f73d4b559522f7e1ee678c",
+      "size_bytes": 946264,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "b0c20a67b093a6ae409d1d381647c942e01fc4c549c3b9db1f877d1367cf06d1",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g6-k16-cfi-c-seed100-q-final",
+      "sha256": "1b8289f8188fd6b7b23fa358157ce66a5dfdd81bb6882b4aa22219b0714bb0c9",
+      "size_bytes": 946380,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "bd34799fe99eb0c4c0bc6f958856a49b47d68f29eb5cb50287e32c1d6c792d1d",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g6-k16-ffkl-c-seed100-q-final",
+      "sha256": "918a019275eb89b8ba263cb005c706c547b3cbc17c98c8c283c70e866809955e",
+      "size_bytes": 946405,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "5577aa7becd2eec1232b23c12c33adbe2007e68f4fecb61a15a972403f0d1625",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g6-k16-frkl-c-seed100-q-final",
+      "sha256": "adeb328b9404436b29354a73bdf47c93fcf6e2fff7f125fc16c895accab93ab1",
+      "size_bytes": 946343,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "5b7efadff20005f995e913f097634b6e724e98c10a78ceab07eada4e39165fa9",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g6-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "68ef3c3b68919bb29ceeb635d600aab7d9fb3127e2a65ece0917a39553e1184c",
+      "size_bytes": 389875,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "38007dc711801ef633d1689d5cebe5338ed001ff2f78504c232f760e5ec31634",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g6-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "653403c8959af968c9b58d1965922a0653868296af979037768f09f1d5f4966d",
+      "size_bytes": 389798,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "9035447203451e42e0ccf7d17105c1b0746ba89e630d80f0a1d219deab9e2ed2",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g6-k6-cfi-c-seed100-q-final",
+      "sha256": "09ac909d9fa8fe38d670623c55562db6058d18ca4b8f7cf69a46b6d08812efad",
+      "size_bytes": 389860,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "562dacbeafcd91509ed75edc699e500bf7f7b8920d4327d136a8a3aff5433f7d",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g6-k6-ffkl-c-seed100-q-final",
+      "sha256": "21de696a3e7bf2f67acca9f874e3915eba88d160153307bce25a14ede10a7c26",
+      "size_bytes": 389867,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g6_papaioannou_100d_Sigma1",
+      "certification": {
+        "artifact_content_sha256": "654a72e9d8d81fd6ec283001cab179e4f4a5c03af97447c878abc1b7f7f5e7c0",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g6-k6-frkl-c-seed100-q-final",
+      "sha256": "9eb150cf8286dbbda924705e3bad40a468a78657510bebc847cdbbfff339370a",
+      "size_bytes": 389857,
+      "training_seed": 100,
+      "workflow_status": "supported_analytic"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "a842d97d5d53aa2d9efc4ae670d1d2eb6c608b4507a11074f24d6aa2824499b7",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g7-k16-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "69948245d74903493baf8069697e4067d7f946f7185e01f8c74f48457b7a61fa",
+      "size_bytes": 384952,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "db94525b5c0e3eaeb6c3a1d1d0a0d1ec52ea2a8b3622f39ce4b0f37f4d4dd757",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g7-k16-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "37a53bd37d78a554ddb229c2b68d5082a30e389df0554fb627182e5628008f7c",
+      "size_bytes": 384956,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "6151897c4100f8c3bcc8f8573c8c609a6bc870d9e17ae6808268eb1bff385c45",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g7-k16-cfi-c-seed100-q-final",
+      "sha256": "e8c8bb7689b0654401171f5f8ecfe7200cd8f1f2e7348df34d62f2f32c37b340",
+      "size_bytes": 384971,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "182c1fae5db749daaca3507012f06fca2bb7023f15b0ac78d1847191798c0093",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g7-k16-ffkl-c-seed100-q-final",
+      "sha256": "13fb284ccca5898497850be72f11ba3678bce0ff6cd119bf344099fc652ec082",
+      "size_bytes": 384950,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "d281fd48e9fbadcadda63b3c9b5d5b61a1f2903d78c3b3f73033c01c7bfbdd6e",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 16,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g7-k16-frkl-c-seed100-q-final",
+      "sha256": "b55d88b297d5166de1f14a7e38c9003237c52d68a5a63dbaadc357bd9854e661",
+      "size_bytes": 384605,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "6d4e4136e3a92511ae4e4ef1d471c9f48ff4a6d0f118bd7609a234f2e9de1b3c",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+FKL-c",
+      "method": "cfi_c_ffkl_c",
+      "mirrors": [],
+      "name": "g7-k6-cfi-c-ffkl-c-seed100-q-final",
+      "sha256": "83e9931d76ebe69bd8615f2c8587f54cd2b10e95b08c6abfbe1c53c25e4b00b9",
+      "size_bytes": 158793,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "a867e7655ca02db145cb8d7dbba62af091f120b74d793b14d05f9f7d0f10ecdf",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c+RKL-c",
+      "method": "cfi_c_frkl_c",
+      "mirrors": [],
+      "name": "g7-k6-cfi-c-frkl-c-seed100-q-final",
+      "sha256": "daabf1c2402b7a13d96c2fd3a73e5c0445270b53c79436e3656c43c3fe1452c0",
+      "size_bytes": 158788,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "9ec23658b741832e968df254a779773c84b9720d98dc0dca130d9d8275a7b327",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "CFI-c",
+      "method": "cfi_c",
+      "mirrors": [],
+      "name": "g7-k6-cfi-c-seed100-q-final",
+      "sha256": "8249778b4d950f01e08680f7426e30e5156612a1652d3bbe3e66c1381550e11e",
+      "size_bytes": 158784,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "dd925ac39b329003a8b1d0331dcb7e5cacc357db24e1344ff1fab0e9ad6e2442",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fFKL-c",
+      "method": "ffkl_c",
+      "mirrors": [],
+      "name": "g7-k6-ffkl-c-seed100-q-final",
+      "sha256": "c1140fa006c554b9b496d394877a9c8a0b23ab55265f1c85b612399b1447d814",
+      "size_bytes": 158797,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    },
+    {
+      "artifact_kind": "certified_final_gmm",
+      "availability": "repository_embedded",
+      "benchmark": "g7_resnet",
+      "certification": {
+        "artifact_content_sha256": "b4818192071f00f7367ebd4540769fcbc8d16b7052587cff3c429f4febcd9ea5",
+        "passed": true,
+        "policy": "production_operational_certification_v1",
+        "schema_version": 1
+      },
+      "components": 6,
+      "display_name": "fRKL-c",
+      "method": "frkl_c",
+      "mirrors": [],
+      "name": "g7-k6-frkl-c-seed100-q-final",
+      "sha256": "20a7e3e7ae23bf98914ffb4352c195f0707a6022d8056fa22f4ad28843ebeb20",
+      "size_bytes": 158626,
+      "training_seed": 100,
+      "workflow_status": "deferred_g7"
+    }
+  ],
+  "cohort": {
+    "artifact_count": 90,
+    "availability": "repository_embedded",
+    "certification_passed_count": 90,
+    "generation": "certified_final",
+    "name": "certified-q-final"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public result record",
+  "type": "object",
+  "required": ["schema_version", "record_type"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "record_type": {"enum": ["run_result", "aggregate_result", "expected_reference", "expected_aggregate", "expected_selection"]},
+    "benchmark": {"type": "string"},
+    "method": {"type": "string"},
+    "components": {"type": "integer", "minimum": 1},
+    "estimate": {"type": "number"},
+    "standard_error": {"type": "number", "minimum": 0},
+    "cov": {"type": ["number", "null"], "minimum": 0},
+    "variance_reduction": {"type": ["number", "null"]},
+    "counts": {"type": "object"}
+  },
+  "additionalProperties": true
+}

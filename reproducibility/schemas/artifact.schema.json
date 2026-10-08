@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Certified proposal artifact manifest",
+  "type": "object",
+  "required": ["schema_version", "cohort", "artifacts"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "cohort": {
+      "type": "object",
+      "required": [
+        "name",
+        "generation",
+        "artifact_count",
+        "certification_passed_count",
+        "availability"
+      ],
+      "properties": {
+        "name": {"const": "certified-q-final"},
+        "generation": {"const": "certified_final"},
+        "artifact_count": {"const": 90},
+        "certification_passed_count": {"const": 90},
+        "availability": {"const": "repository_embedded"}
+      },
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 90,
+      "maxItems": 90,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "benchmark",
+          "method",
+          "display_name",
+          "components",
+          "training_seed",
+          "artifact_kind",
+          "sha256",
+          "size_bytes",
+          "certification",
+          "workflow_status",
+          "availability",
+          "mirrors"
+        ],
+        "properties": {
+          "name": {"type": "string"},
+          "benchmark": {"type": "string"},
+          "method": {"type": "string"},
+          "display_name": {"type": "string"},
+          "components": {"enum": [6, 16]},
+          "training_seed": {"const": 100},
+          "artifact_kind": {"const": "certified_final_gmm"},
+          "sha256": {"$ref": "#/$defs/sha256"},
+          "size_bytes": {"type": "integer", "minimum": 1},
+          "certification": {
+            "type": "object",
+            "required": ["passed", "policy", "schema_version", "artifact_content_sha256"],
+            "properties": {
+              "passed": {"const": true},
+              "policy": {"const": "production_operational_certification_v1"},
+              "schema_version": {"const": 1},
+              "artifact_content_sha256": {"$ref": "#/$defs/sha256"}
+            },
+            "additionalProperties": false
+          },
+          "workflow_status": {"enum": ["supported_analytic", "deferred_g7"]},
+          "availability": {"const": "repository_embedded"},
+          "mirrors": {"type": "array", "items": {"type": "string", "format": "uri"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

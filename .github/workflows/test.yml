@@ -1,0 +1,90 @@
+name: Public package tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-package-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.11.9"
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+
+      - name: Verify lock and install core test environment
+        run: |
+          uv lock --check
+          uv sync --frozen --extra dev
+
+      - name: Run public tests
+        run: uv run --frozen pytest -q
+
+  release-gates:
+    name: Release and optional-g7 gates
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.11.9"
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install locked release-validation environment
+        run: |
+          uv lock --check
+          uv sync --frozen --extra dev --extra g7
+
+      - name: Run full tests without external g7 assets
+        run: uv run --frozen pytest -q
+
+      - name: Run quickstart and public command checks
+        run: |
+          uv run --frozen python examples/quickstart_g1.py
+          uv run --frozen robust-cfi-is validate configs/paper/g7.yaml
+          uv run --frozen robust-cfi-is reproduce plan configs/paper/g7.yaml --method cfi_c --k 6
+          uv run --frozen robust-cfi-is artifacts list --manifest reproducibility/artifacts.json
+
+      - name: Build deterministic clean export
+        run: |
+          uv run --frozen python scripts/build_clean_export.py \
+            --source . \
+            --destination "${RUNNER_TEMP}/robust-cfi-is-clean" \
+            --receipt "${RUNNER_TEMP}/robust-cfi-is-clean-receipt.json"
+
+      - name: Build distributions
+        run: uv build
+
+      - name: Smoke-test built wheel
+        run: |
+          uv run --isolated --no-project --with dist/*.whl \
+            python -c "import robust_cfi_is; print(robust_cfi_is.__version__)"
+          uv run --isolated --no-project --with dist/*.whl robust-cfi-is --help
